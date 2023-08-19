@@ -15,7 +15,7 @@ const Layout = () => {
   );
   return (
     <>
-      <div className="h-16 bg-rose-400 sticky top-0">
+      <div className="h-16 bg-gray-900 sticky top-0">
         <div className="navbar text-white">
           <div className="navbar-start">
             <div className="dropdown">
@@ -42,7 +42,7 @@ const Layout = () => {
                 {listItem}
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+            <a className="btn btn-ghost normal-case text-xl">AUTO - Parts </a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{listItem}</ul>
@@ -50,7 +50,7 @@ const Layout = () => {
         </div>
       </div>
       <div className="flex relative">
-        <div className="hidden lg:block lg:w-[15%] bg-slate-400 h-screen sticky top-[0px]">
+        <div className="hidden lg:block lg:w-[15%] h-screen sticky top-[0px]">
           <SideMenubar />
         </div>
         <div className="w-full lg:w-[85%] bg-white overflow-hidden">

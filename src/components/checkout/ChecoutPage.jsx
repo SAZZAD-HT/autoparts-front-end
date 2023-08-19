@@ -44,7 +44,8 @@ const CheckoutPage = () => {
       .post("http://localhost:3000/sells/sell ", payload)
       .then((response) => {
         console.log("Response:", response.data);
-        // Handle success here
+       alert("Purchase Successfull");
+       window.location.href = "/";
       })
       .catch((error) => {
         console.error("Error:", error);

@@ -33,10 +33,10 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a rel="noopener noreferrer" href="#">
-              Facebook
-            </a>
-          </li>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      Facebook
+    </a>
+  </li>
           <li>
             <a rel="noopener noreferrer" href="file:///C:/Users/TRIFO/AppData/Local/Microsoft/Windows/INetCache/IE/8IDUADGH/AddProduct[1].html">
               Twitter

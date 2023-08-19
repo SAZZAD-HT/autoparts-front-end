@@ -20,7 +20,8 @@ const ProductCardItem = ({ item }) => {
   }, [ProductQuantity]);
 
   return (
-    <div className="max-w-xs rounded-md  bg-rose-500 shadow-xl shadow-gray-300 text-gray-100">
+   
+    <div className="max-w-xs rounded-md bg-indigo-900 shadow-xl shadow-gray-300 text-gray-100">
       <img
         src={ProductImage}
         alt=""
